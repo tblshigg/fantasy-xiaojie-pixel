@@ -1,0 +1,172 @@
+{
+  "name": "范特西小杰",
+  "name_en": "Fantasy Xiaojie",
+  "version": "1.0.0",
+  "sprite_version": 2,
+  "file": "assets/fantasy-xiaojie-v2.png",
+  "width": 1536,
+  "height": 2288,
+  "columns": 8,
+  "cell_width": 192,
+  "cell_height": 208,
+  "required_frames": 73,
+  "unused_cells": 15,
+  "share_url": "https://chatgpt.com/s/sharepet_6af9c4f76ec481919fca50a0cffb36e1",
+  "repository": "https://github.com/tblshigg/fantasy-xiaojie-pixel",
+  "rows": [
+    {
+      "row": 0,
+      "state": "idle",
+      "frames": 6,
+      "durations_ms": [
+        280,
+        110,
+        110,
+        140,
+        140,
+        320
+      ]
+    },
+    {
+      "row": 1,
+      "state": "running-right",
+      "frames": 8,
+      "durations_ms": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        220
+      ]
+    },
+    {
+      "row": 2,
+      "state": "running-left",
+      "frames": 8,
+      "durations_ms": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        120,
+        220
+      ]
+    },
+    {
+      "row": 3,
+      "state": "waving",
+      "frames": 4,
+      "durations_ms": [
+        140,
+        140,
+        140,
+        280
+      ]
+    },
+    {
+      "row": 4,
+      "state": "jumping",
+      "frames": 5,
+      "durations_ms": [
+        140,
+        140,
+        140,
+        140,
+        280
+      ]
+    },
+    {
+      "row": 5,
+      "state": "failed",
+      "frames": 8,
+      "durations_ms": [
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        140,
+        240
+      ]
+    },
+    {
+      "row": 6,
+      "state": "waiting",
+      "frames": 6,
+      "durations_ms": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        260
+      ]
+    },
+    {
+      "row": 7,
+      "state": "running",
+      "frames": 6,
+      "durations_ms": [
+        120,
+        120,
+        120,
+        120,
+        120,
+        220
+      ]
+    },
+    {
+      "row": 8,
+      "state": "review",
+      "frames": 6,
+      "durations_ms": [
+        150,
+        150,
+        150,
+        150,
+        150,
+        280
+      ]
+    },
+    {
+      "row": 9,
+      "state": "look-row-9",
+      "frames": 8,
+      "directions": [
+        0,
+        22.5,
+        45,
+        67.5,
+        90,
+        112.5,
+        135,
+        157.5
+      ]
+    },
+    {
+      "row": 10,
+      "state": "look-row-10",
+      "frames": 8,
+      "directions": [
+        180,
+        202.5,
+        225,
+        247.5,
+        270,
+        292.5,
+        315,
+        337.5
+      ]
+    }
+  ],
+  "v1_file": "assets/fantasy-xiaojie-v1.png",
+  "chroma_key": "#FFFF00",
+  "generation": "Built-in OpenAI image generation, followed by deterministic extraction, registration, chroma-edge cleanup and validation.",
+  "ai_behavior": "Provided by the host application; this repository supplies appearance and animation assets."
+}

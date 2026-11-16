@@ -1,0 +1,82 @@
+{
+  "ok": true,
+  "atlas_sha256": "9cc563e1864af7d708d13ce493e1f75a6e27ba5e9020b896a3fa2457a5aa343d",
+  "encoded_bytes": 2391525,
+  "dimensions": [
+    1536,
+    2288
+  ],
+  "used_frames": 73,
+  "unused_cells_transparent": 15,
+  "jump": {
+    "idle_baseline": 200,
+    "jump_baselines": [
+      200,
+      182,
+      166,
+      182,
+      200
+    ],
+    "airborne_lift_pixels": 34,
+    "landing_delta_pixels": 0
+  },
+  "look_registration": {
+    "neutral_center_x": 96.0,
+    "look_centers_x": [
+      96.0,
+      95.0,
+      96.0,
+      95.5,
+      95.5,
+      95.0,
+      95.0,
+      94.0,
+      94.5,
+      95.5,
+      95.5,
+      96.0,
+      96.0,
+      95.5,
+      95.5,
+      95.5
+    ],
+    "look_widths": [
+      122,
+      120,
+      120,
+      119,
+      119,
+      118,
+      118,
+      118,
+      123,
+      121,
+      121,
+      120,
+      120,
+      119,
+      121,
+      119
+    ],
+    "maximum_center_drift_pixels": 2.0,
+    "maximum_width_ratio": 1.0423728813559323
+  },
+  "blind_review": {
+    "reviewers": 3,
+    "pairs": 14,
+    "ok": true,
+    "errors": [],
+    "unconfirmed": []
+  },
+  "errors": [],
+  "reviewed_warnings": [
+    "look direction 022.5 accepted with a reviewed warning",
+    "look direction 112.5 accepted with a reviewed warning",
+    "look direction 157.5 accepted with a reviewed warning",
+    "look direction 202.5 accepted with a reviewed warning",
+    "look direction 292.5 accepted with a reviewed warning",
+    "look direction 337.5 accepted with a reviewed warning",
+    "157.5->180 diff is a local outlier (1110 pixels vs neighbor average 688)"
+  ],
+  "validation_scope": "Creation-time bundled atlas/quality gates, per-row visual review, labeled direction review, 3 independent blind axis reviewers and successful Pets MCP preflight. Repository validator checks format and integrity only."
+}
